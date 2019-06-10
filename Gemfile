@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.6.3'
-
-gem "tensor_stream-opencl"
+gem "tensor_stream-opencl", path: '~/workspace/tensor_stream-opencl'
+gem "nmatrix"
+gem "pry-byebug"
+gem 'pry-rescue'
